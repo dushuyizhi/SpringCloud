@@ -1,0 +1,2 @@
+*.class
+/eureka-server/target
