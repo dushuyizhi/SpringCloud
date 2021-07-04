@@ -1,0 +1,13 @@
+#provider2配置
+server:
+  port: 8083
+
+#连接server 的 url
+eureka:
+  client:
+    service-url:
+      defaultZone: http://ek1.com:7001/eureka/
+
+spring:
+  application:
+    name: EurekaProvider2

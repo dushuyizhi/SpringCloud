@@ -1,0 +1,13 @@
+#provider1配置
+server:
+  port: 9091
+
+#连接server 的 url
+eureka:
+  client:
+    service-url:
+      defaultZone: http://ek1.com:7001/eureka/
+
+spring:
+  application:
+    name: EurekaConsumer
